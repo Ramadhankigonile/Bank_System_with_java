@@ -22,7 +22,6 @@ try {
 }
 
 
-// concrete methods for definitions of all abstract methods inherited from ATM interface
 class BankAccountt implements ATM { 
     
     Scanner scanner = new Scanner(System.in);
