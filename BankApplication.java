@@ -8,14 +8,12 @@ public class BankApplication {
     public static void main(String[] args) {
 
 
-// try and catch statements to control an exception frm users while entering wrong inputs..
 try {
         BankAccountt obj = new BankAccountt("","");
         obj.showMenu();
      
 } catch (Exception e) {
 
-    // TODO: handle exception
 
     System.out.println("something went wrong try again");
 
